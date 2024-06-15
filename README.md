@@ -79,7 +79,7 @@ Now we can't just push index 3, 5, and 11 and call it a day. Heck, we don't even
 
 Next, we have this order of insertion. Notice that there's no 11th index; it got eliminated to only have the elements to be inserted.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Now picture this: for each element we need to insert, we'll need to compare with each element of the parent sequence until we find the right place. That really defeats the purpose of the algorithm, which is to use as few comparisons as possible. For that, we use binary search. To use it, we need our sequence to be already sorted, and what do you know, we already did that with our largest sequence.
 
@@ -92,7 +92,7 @@ Now that we have a way to insert and an order of insertion that uses as few comp
 
 Instead of binary searching the whole sequence for each number and losing more comparison power, we should only insert in a range of 0 to {2^(k) - 1}. What's k, you're asking? Well, it's the batch of the Jacobsthal sequence you're inserting. For example, when you reach index 11 and its subordinate indexes 10, 9, 8, 7, 6, this is a batch. Each element of the Jacobsthal original sequence creates its own batch.
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Now that we have everything we need ready and explained, let's apply it.
 
@@ -100,27 +100,27 @@ Now that we have everything we need ready and explained, let's apply it.
 
 First, we know that the first element is ready to be inserted first.
 
-![alttest](image-4.png)
+![alttest](images/image-4.png)
 
 Now we need our insertion order. Batch one is number 4, already inserted.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 ### We Start with Batch 2
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 ### Batch 3
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 ### Batch 4 and Last
 - In this case, 15 is the size of the sequence, so batches beyond this point will be inserted into the entire sequence.
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 ### And Finally
 - Hope you didn't forget one number, yes, the struggle, the lonely one with no pair.
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 
 ---
