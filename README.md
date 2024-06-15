@@ -135,7 +135,9 @@ The following Excalidraw diagram provides a visual representation of each step:
 
 ## Conclusion
 
-The Ford-Johnson merge-insert algorithm is a sophisticated method for sorting that combines merging and insertion techniques to achieve efficient sorting with minimal comparisons.
+Based on the analytics shared by [PunkChameleon](https://github.com/PunkChameleon/ford-johnson-merge-insertion-sort/tree/master), it's evident that the Ford-Johnson Merge-Insertion sort (FJMI) optimally reduces the number of necessary comparisons, particularly beneficial for sorting shorter datasets. Despite its complexity and comparatively lower efficiency as data scales, FJMI provides crucial insights into optimal sorting algorithms and contributes significantly to theoretical advancements in this domain.
+
+Although its practical implementation may not compete favorably with other sorting algorithms, FJMI is poised to remain a foundational approach for low-comparison sorting. This underscores its ongoing relevance, inspiring continuous enhancements and research efforts aimed at refining sorting optimizations in the future.
 
 ---
 
