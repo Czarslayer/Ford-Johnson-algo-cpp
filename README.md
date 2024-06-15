@@ -1,7 +1,14 @@
 # Ford-Johnson Algorithm Using C++
 
-### background
-In computer science, merge-insertion sort, or the Ford-Johnson algorithm, is a comparison sorting algorithm published in 1959 by L. R. Ford Jr. and Selmer M. Johnson. It uses fewer comparisons in the worst case than the best previously known algorithms, binary insertion sort and merge sort, and for 20 years, it was the sorting algorithm with the fewest known comparisons. Although not of practical significance, it remains of theoretical interest in connection with the problem of sorting with a minimum number of comparisons.
+### Background:
+
+While there are several well-known sorting algorithms in wide-use today, they often gauge their success on the speed of the sort and their ease in implementation rather than reducing the number of comparisons needed during any given sort.
+
+The Ford-Johnson Merge-Insertion sorting algorithm focuses on solely this aspect, providing an algorithm in which the least amount of comparisons is needed. Developed in 1959 by Lester Ford and Selmer Johnson, this algorithm has set the standard for low comparison sorting and continues to act as the bedrock for all research in that area of study.
+
+We will provide a historical background on the Ford-Johnson Merge-Insertion Sort, an implementation of the algorithm in Python, background on why it was developed and what it is used for, provide an overview of the given implementation, a look as to how efficiency is measured for this algorithm, a review of what metrics and tests were used when measuring the efficiency in this implementation and what was learned as a result.
+
+The implementation can easily be imported into any project and used. Tests are included in 'test.py'. All bugs and pull requests welcomed.
 
 ### Introduction
 In this project, I attempted, after all my research, to understand how this algorithm works. I finally figured out how to implement it, and I'll explain it here in detail. I hope you understand and it makes it easy for you to implement it yourself.
