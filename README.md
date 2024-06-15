@@ -144,3 +144,12 @@ The Ford-Johnson merge-insert algorithm is a sophisticated method for sorting th
 - [Original Paper by Ford and Johnson](https://seriouscomputerist.atariverse.com/media/pdf/book/Art%20of%20Computer%20Programming%20-%20Volume%203%20(Sorting%20&%20Searching).pdf) (page 196)
 - [Jacobsthal Sequence](https://oeis.org/A001045)
 - [stack exchange](https://codereview.stackexchange.com/questions/116367/ford-johnson-merge-insertion-sort)
+ - Ford, Lester R., and Selmer M. Johnson. “A Tournament Problem.” The American Mathematical Monthly, vol. 66, no. 5, 1959, pp. 387–389. JSTOR, https://www.jstor.org/stable/2308750. Accessed 13 June 2020.
+
+ - Knuth, Donald E. The Art of Computer Programming: Volume 3: Sorting and Searching. Addison-Wesley Professional; 2 edition (May 4, 1998).
+
+ - Mahmoud, Hosam M. Sorting: A Distribution Theory. John Wiley & Sons. (October 14, 2011).
+
+ - Manacher, Glenn K. 1979. “The Ford-Johnson Sorting Algorithm Is Not Optimal”. J. ACM 26, 3 (july 1979), 441–456. DOI:https://doi.org/10.1145/322139.322145
+
+ - Morwenn. “Ford-Johnson Merge-Insertion Sort”. Code Review Stack Exchange. 10 Jan. 2016, https://codereview.stackexchange.com/questions/116367/ford-johnson-merge-insertion-sort
