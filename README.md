@@ -86,7 +86,7 @@ Now picture this: for each element we need to insert, we'll need to compare with
 ## Binary Search Brief Explanation
 - Binary search is a search algorithm used to find the position of a target value within a sorted array. It works by repeatedly dividing the search interval in half until the target value is found or the interval is empty. The search interval is halved by comparing the target element with the middle value of the search space, cutting time complexity to O(log N).
 
-![alt text](<Screenshot 2024-06-15 191632.png>)
+![alt text](</images/Screenshot 2024-06-15 191632.png>)
 
 Now that we have a way to insert and an order of insertion that uses as few comparisons as possible, wait, what's that? Want to optimize it more? Well, search no more. Introducing "only insert in a specific range." I would love to take credit, but no, it's also required by the algorithm.
 
